@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D0F45771F3BDB80001D9865 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F45761F3BDB80001D9865 /* AppDelegate.m */; };
+		7D0F457A1F3BDB80001D9865 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F45791F3BDB80001D9865 /* main.m */; };
+		7D0F457D1F3BDB80001D9865 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F457C1F3BDB80001D9865 /* ViewController.m */; };
+		7D0F457F1F3BDB80001D9865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0F457E1F3BDB80001D9865 /* Assets.xcassets */; };
+		7D0F45821F3BDB80001D9865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0F45801F3BDB80001D9865 /* Main.storyboard */; };
+		7DF189DD1F3F4388007CF65A /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF189D81F3F4388007CF65A /* GCDAsyncUdpSocket.m */; };
+		7DF189DE1F3F4388007CF65A /* STUNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF189DA1F3F4388007CF65A /* STUNClient.m */; };
+		7DF189DF1F3F4388007CF65A /* UDPHolePuncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF189DC1F3F4388007CF65A /* UDPHolePuncher.m */; };
+		7DF189E51F3F4C40007CF65A /* EndpointResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF189E41F3F4C40007CF65A /* EndpointResolution.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D0F45721F3BDB80001D9865 /* STUNmacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STUNmacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0F45751F3BDB80001D9865 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D0F45761F3BDB80001D9865 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D0F45791F3BDB80001D9865 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D0F457B1F3BDB80001D9865 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D0F457C1F3BDB80001D9865 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D0F457E1F3BDB80001D9865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D0F45811F3BDB80001D9865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D0F45831F3BDB80001D9865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF189D71F3F4388007CF65A /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		7DF189D81F3F4388007CF65A /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		7DF189D91F3F4388007CF65A /* STUNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUNClient.h; sourceTree = "<group>"; };
+		7DF189DA1F3F4388007CF65A /* STUNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUNClient.m; sourceTree = "<group>"; };
+		7DF189DB1F3F4388007CF65A /* UDPHolePuncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPHolePuncher.h; sourceTree = "<group>"; };
+		7DF189DC1F3F4388007CF65A /* UDPHolePuncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPHolePuncher.m; sourceTree = "<group>"; };
+		7DF189E31F3F4C40007CF65A /* EndpointResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndpointResolution.h; sourceTree = "<group>"; };
+		7DF189E41F3F4C40007CF65A /* EndpointResolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndpointResolution.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D0F456F1F3BDB7F001D9865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D0F45691F3BDB7F001D9865 = {
+			isa = PBXGroup;
+			children = (
+				7D0F45741F3BDB80001D9865 /* STUNmacOS */,
+				7D0F45731F3BDB80001D9865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D0F45731F3BDB80001D9865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D0F45721F3BDB80001D9865 /* STUNmacOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D0F45741F3BDB80001D9865 /* STUNmacOS */ = {
+			isa = PBXGroup;
+			children = (
+				7DF189D61F3F4388007CF65A /* common */,
+				7D0F45751F3BDB80001D9865 /* AppDelegate.h */,
+				7D0F45761F3BDB80001D9865 /* AppDelegate.m */,
+				7D0F457B1F3BDB80001D9865 /* ViewController.h */,
+				7D0F457C1F3BDB80001D9865 /* ViewController.m */,
+				7D0F457E1F3BDB80001D9865 /* Assets.xcassets */,
+				7D0F45801F3BDB80001D9865 /* Main.storyboard */,
+				7D0F45831F3BDB80001D9865 /* Info.plist */,
+				7D0F45781F3BDB80001D9865 /* Supporting Files */,
+			);
+			path = STUNmacOS;
+			sourceTree = "<group>";
+		};
+		7D0F45781F3BDB80001D9865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D0F45791F3BDB80001D9865 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DF189D61F3F4388007CF65A /* common */ = {
+			isa = PBXGroup;
+			children = (
+				7DF189D71F3F4388007CF65A /* GCDAsyncUdpSocket.h */,
+				7DF189D81F3F4388007CF65A /* GCDAsyncUdpSocket.m */,
+				7DF189D91F3F4388007CF65A /* STUNClient.h */,
+				7DF189DA1F3F4388007CF65A /* STUNClient.m */,
+				7DF189DB1F3F4388007CF65A /* UDPHolePuncher.h */,
+				7DF189DC1F3F4388007CF65A /* UDPHolePuncher.m */,
+				7DF189E31F3F4C40007CF65A /* EndpointResolution.h */,
+				7DF189E41F3F4C40007CF65A /* EndpointResolution.m */,
+			);
+			name = common;
+			path = ../../common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D0F45711F3BDB7F001D9865 /* STUNmacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0F45861F3BDB80001D9865 /* Build configuration list for PBXNativeTarget "STUNmacOS" */;
+			buildPhases = (
+				7D0F456E1F3BDB7F001D9865 /* Sources */,
+				7D0F456F1F3BDB7F001D9865 /* Frameworks */,
+				7D0F45701F3BDB7F001D9865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STUNmacOS;
+			productName = STUNmacOS;
+			productReference = 7D0F45721F3BDB80001D9865 /* STUNmacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D0F456A1F3BDB7F001D9865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "ThumbGenius Software";
+				TargetAttributes = {
+					7D0F45711F3BDB7F001D9865 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUKAFQ5426;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D0F456D1F3BDB7F001D9865 /* Build configuration list for PBXProject "STUNmacOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D0F45691F3BDB7F001D9865;
+			productRefGroup = 7D0F45731F3BDB80001D9865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D0F45711F3BDB7F001D9865 /* STUNmacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D0F45701F3BDB7F001D9865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0F457F1F3BDB80001D9865 /* Assets.xcassets in Resources */,
+				7D0F45821F3BDB80001D9865 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D0F456E1F3BDB7F001D9865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF189DE1F3F4388007CF65A /* STUNClient.m in Sources */,
+				7DF189DD1F3F4388007CF65A /* GCDAsyncUdpSocket.m in Sources */,
+				7D0F457D1F3BDB80001D9865 /* ViewController.m in Sources */,
+				7DF189E51F3F4C40007CF65A /* EndpointResolution.m in Sources */,
+				7D0F457A1F3BDB80001D9865 /* main.m in Sources */,
+				7D0F45771F3BDB80001D9865 /* AppDelegate.m in Sources */,
+				7DF189DF1F3F4388007CF65A /* UDPHolePuncher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D0F45801F3BDB80001D9865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D0F45811F3BDB80001D9865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D0F45841F3BDB80001D9865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D0F45851F3BDB80001D9865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D0F45871F3BDB80001D9865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SUKAFQ5426;
+				INFOPLIST_FILE = STUNmacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thumbgenius.STUNmacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D0F45881F3BDB80001D9865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SUKAFQ5426;
+				INFOPLIST_FILE = STUNmacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thumbgenius.STUNmacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D0F456D1F3BDB7F001D9865 /* Build configuration list for PBXProject "STUNmacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0F45841F3BDB80001D9865 /* Debug */,
+				7D0F45851F3BDB80001D9865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D0F45861F3BDB80001D9865 /* Build configuration list for PBXNativeTarget "STUNmacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0F45871F3BDB80001D9865 /* Debug */,
+				7D0F45881F3BDB80001D9865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D0F456A1F3BDB7F001D9865 /* Project object */;
+}
